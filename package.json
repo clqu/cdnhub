@@ -1,6 +1,6 @@
 {
 	"name": "cdnhub",
-	"version": "0.0.1",
+	"version": "0.0.2",
 	"description": "A powerful CDN solution using GitHub repositories for file hosting and distribution.",
 	"main": "dist/index.js",
 	"types": "dist/index.d.ts",
@@ -27,6 +27,11 @@
 	"devDependencies": {
 		"@types/node": "^18.15.0",
 		"typescript": "^5.0.0"
+	},
+	"homepage": "https://github.com/clqu/cdnhub",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/clqu/cdnhub.git"
 	},
 	"files": [
 		"dist"
