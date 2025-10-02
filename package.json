@@ -1,0 +1,34 @@
+{
+	"name": "cdnhub",
+	"version": "0.0.1",
+	"description": "A powerful CDN solution using GitHub repositories for file hosting and distribution.",
+	"main": "dist/index.js",
+	"types": "dist/index.d.ts",
+	"scripts": {
+		"build": "tsc",
+		"prepublishOnly": "npm run build"
+	},
+	"keywords": [
+		"github",
+		"cdn",
+		"file hosting",
+		"typescript",
+		"octokit",
+		"api"
+	],
+	"publishConfig": {
+		"access": "public"
+	},
+	"author": "clqu <mail@clqu.dev>",
+	"license": "MIT",
+	"dependencies": {
+		"octokit": "^5.0.3"
+	},
+	"devDependencies": {
+		"@types/node": "^18.15.0",
+		"typescript": "^5.0.0"
+	},
+	"files": [
+		"dist"
+	]
+}
